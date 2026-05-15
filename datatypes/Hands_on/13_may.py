@@ -5,6 +5,9 @@
 # 1. Integer (int)
 # Integers are whole numbers without decimal points
 
+from numpy import nan
+
+
 age = 22
 print(age)
 print(type(age))
