@@ -1,4 +1,4 @@
-#             ******LIST, TUPLE, DICTIONARY******
+#             ******LIST, TUPLE******
 
 # 1. List: A list is a collection of items that are ordered and changeable. It is defined using square brackets [].
 
