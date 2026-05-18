@@ -8,35 +8,35 @@ aws_students = {"Rahul","David","Kiran"}
 
 #1.Students in both Python and SQL
 student1 = python_students & sql_students
-print("Students in both Python and SQL:", student1)
+print(student1)
 
 #Students in all 3 courses
 student2 = python_students & sql_students & aws_students
-print("Students in all 3 courses:", student2)   
+print(student2)   
 
 #Students only in Python
 student3 = python_students - (sql_students | aws_students)
-print("Students only in Python:", student3)
+print(student3)
 
 #Total unique students
 student4 = python_students | sql_students | aws_students
-print("Total unique students:", student4)
+print(student4)
 
 #Students not enrolled in AWS
 student5 = student4 - aws_students
-print("Students not enrolled in AWS:", student5)
+print(student5)
 
 #Students in more than 2 courses.
 student6 = (python_students & sql_students) | (python_students & aws_students) | (sql_students & aws_students)
-print("Students in more than 2 courses:", student6)
+print(student6)
 
 #Students whose name starts with 'Ra'
 student7 = {s for s in student4 if s.startswith("Ra")}
-print("Students whose name starts with 'Ra':", student7)
+print(student7)
 
 #Students whose name ends with 'na' or 'an'
 student8 = {s for s in student4 if s.endswith("na") or s.endswith("an")}
-print("Students whose name ends with 'na' or 'an':", student8)
+print(student8)
 
 
 #Part 2
