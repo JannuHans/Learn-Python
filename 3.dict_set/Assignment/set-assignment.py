@@ -59,3 +59,6 @@ print("Duplicate values:", duplicates)
 #frequency of each value
 frequency = {x: data.count(x) for x in set(data)}
 print("Frequency of each value:", frequency)
+
+
+

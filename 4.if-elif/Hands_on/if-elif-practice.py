@@ -51,38 +51,6 @@ if b > a:
   pass
 
 
-#More Logical Questions
-#1. Salary Bonus System
-# salary > 50000 → bonus 20%
-# salary > 30000 → bonus 10%
-# else → bonus 5%
-
-salary = int(input("Enter salary: "))
-
-if salary > 50000:
-    bonus = salary * 0.20
-elif salary > 30000:
-    bonus = salary * 0.10
-else:
-    bonus = salary * 0.05
-
-print("Bonus:", bonus)
 
 
-#4. Divisibility Checker
-# check
-# divisible by both 3 and 5
-# only 3
-# only 5
-# neither
 
-num = int(input("Enter number: "))
-
-if num % 3 == 0 and num % 5 == 0:
-    print("Divisible by both")
-elif num % 3 == 0:
-    print("Divisible by 3")
-elif num % 5 == 0:
-    print("Divisible by 5")
-else:
-    print("Not divisible")
