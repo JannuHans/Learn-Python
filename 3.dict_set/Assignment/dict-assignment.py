@@ -69,6 +69,8 @@ print(d1)
 sort1 = dict(sorted(d1.items()))
 print(sort1)
 
+so = dict(sorted(d1.items()))
+
 sort2 = dict(sorted(d1.items(), key=lambda item: item[1]))
 
 print(sort2)

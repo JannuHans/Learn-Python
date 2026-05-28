@@ -158,6 +158,7 @@ print("grapes" not in fruits)     # True
 a = 5      # Binary: 0101
 b = 3      # Binary: 0011
 
+
 print(a & b)   # 1
 print(a | b)   # 7
 print(a ^ b)   # 6
@@ -235,3 +236,7 @@ print(a > 2 and b < 20)   # True
 name = "Python"
 
 print("P" in name)   # True
+
+a = 2.7
+b=2
+print(a//b)

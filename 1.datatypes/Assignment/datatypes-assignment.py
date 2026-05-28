@@ -10,8 +10,6 @@ print(a + b)
 # Output:
 # 0.30000000000000004
 
-#0.30000000000000004
-
 #2. Decimal in Python
 #Decimal stores numbers more accurately.
 from decimal import Decimal
